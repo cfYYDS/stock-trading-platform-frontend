@@ -16,7 +16,7 @@ const AccessDenied = () => {
     >
       <div style={{ position: 'relative', width: '700px', height: '500px' }}>
         <div style={{ position: 'absolute', left: 0, bottom: 0 }}>
-          <img src='/403.svg' />
+          <img src='./403.svg' />
         </div>
         <div
           style={{

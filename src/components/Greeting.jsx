@@ -18,7 +18,7 @@ const Greeting = () => {
     <Card className='greeting-relative'>
       <div className='greeting-absolute'>
         <Image
-          src='/greeting.png'
+          src='./greeting.png'
           width={130}
           height={130}
         />
