@@ -1,0 +1,197 @@
+:root {
+  --primary-color: #f47458;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e6e9f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+input:hover,
+.p-dropdown:hover {
+  border-color: #d1d5db;
+  background-color: #f3faff;
+}
+
+input:focus,
+.p-focus {
+  border-color: #2975d0;
+  box-shadow: none;
+}
+
+tr:hover {
+  background-color: #f3f4f6;
+}
+
+tr:active {
+  background-color: #eff6ff;
+  color: #5463d8;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0 2rem;
+}
+
+.active,
+a:hover {
+  color: var(--primary-color);
+}
+
+.p-button {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.p-button:hover {
+  background-color: #508fd9;
+}
+
+.p-button:focus {
+  background-color: #1d355d;
+  box-shadow: none;
+}
+
+.p-highlight {
+  background-color: #eff6ff;
+  color: #1d3a8a;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: start;
+  font-size: 0.8rem;
+  padding: 1rem 0;
+  height: 7rem;
+}
+
+.center {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  padding: 2rem 6rem 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.dialog-container {
+  background-color: #e6e9f2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 90vw;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 0.5rem 0;
+}
+
+.error-container {
+  background-color: #e6e9f2;
+  position: relative;
+}
+
+.p-card {
+  border-radius: 1rem;
+  box-shadow: none;
+}
+
+.p-card-content {
+  padding: 0 1rem;
+}
+
+.p-icon-field-right:has(.p-password-input),
+.p-password-input {
+  width: 100%;
+}
+
+.p-progress-spinner-circle {
+  stroke: white !important;
+}
+
+.p-menu {
+  padding: 0;
+}
+
+.p-menuitem-link:first-child {
+  background-color: white;
+}
+
+.p-menuitem-link {
+  padding: 0.8rem 1rem;
+}
+
+.p-menuitem-link:hover {
+  background-color: #f3f4f6;
+}
+
+.p-menuitem-link:active {
+  background-color: #eff6ff;
+}
+
+.p-menuitem-link:active > span,
+.p-menuitem-active span {
+  color: #5463d8;
+}
+
+#account-card .p-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+i.pi-times:hover {
+  cursor: pointer;
+}
+
+.greeting-relative {
+  position: relative;
+  background-color: var(--primary-color);
+  height: 200px;
+}
+
+.greeting-absolute {
+  position: absolute;
+  background-color: white;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 3rem;
+  padding-right: 20rem;
+  border-radius: 1rem 0 100% 1rem;
+}
+
+.greeting-text {
+  color: var(--primary-color);
+  font-weight: 500;
+}
